@@ -47,7 +47,7 @@ src/
 
 เพิ่มข้อมูลนี้ลงใน `src/App.jsx` ก่อนเริ่ม:
 
-```jsx
+```jsx 
 const POSTS = [
   {
     id: 1,
