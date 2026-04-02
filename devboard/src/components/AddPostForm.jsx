@@ -18,10 +18,11 @@ function AddPostForm({ onAddPost }) {
     <form
       onSubmit={handleSubmit}
       style={{
+        border: "1px solid #e2e8f0",
         borderRadius: "8px",
         padding: "1rem",
         marginBottom: "1.5rem",
-
+        background: "#f7fafc",
       }}
     >
       <h3 style={{ margin: "0 0 0.75rem", color: "#2d3748" }}>
@@ -38,7 +39,7 @@ function AddPostForm({ onAddPost }) {
           width: "100%",
           padding: "0.5rem",
           marginBottom: "0.5rem",
-  
+          border: "1px solid #cbd5e0",
           borderRadius: "4px",
           fontSize: "1rem",
           boxSizing: "border-box",
@@ -64,6 +65,7 @@ function AddPostForm({ onAddPost }) {
           width: "100%",
           padding: "0.5rem",
           marginBottom: "0.75rem",
+          border: "1px solid #cbd5e0",
           borderRadius: "4px",
           fontSize: "1rem",
           resize: "vertical",
@@ -74,6 +76,7 @@ function AddPostForm({ onAddPost }) {
       <button
         type="submit"
         style={{
+          background: "#1e40af",
           color: "white",
           border: "none",
           padding: "0.5rem 1.5rem",

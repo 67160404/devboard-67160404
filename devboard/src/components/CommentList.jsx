@@ -55,4 +55,4 @@ function CommentList({ postId }) {
   );
 }
 
-export default CommentList;
+export default CommentList
